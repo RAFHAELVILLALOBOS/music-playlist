@@ -1,0 +1,97 @@
+body {
+  margin: 10px;
+  background: #4f0808;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.MUSIC {
+  width: 350px;
+  min-height: 620px;
+  margin: 20px;
+  padding: 20px;
+  background: #000000;
+  color: rgb(156, 7, 7);
+  border-radius: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+p {
+  margin: 2px 0;
+  font-size: 15px;
+  color: #33394b;
+}
+
+header p {
+  color: rgb(192, 179, 179);
+}
+
+h1 {
+  text-align: center;
+  font-size: 19px;
+  margin: 20px 0 0;
+}
+
+h2 {
+  margin: 0;
+  font-size: 15px;
+}
+
+
+.cover {
+  position: relative;
+  width: 250px;
+  height: 160px;
+  margin: 25px auto;
+  
+}
+
+.cover img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.art {
+  position: absolute;
+  left: 0;
+  width: 180px;
+  height: 180px;
+ 
+}
+
+
+.list {
+  border-top: 1px solid #67050a;
+  border-bottom: 1px solid #4e0707;
+  padding: 8px 0;
+}
+
+.track {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px;
+  border-radius: 28px;
+  transition: background 0.2s ease; 
+  cursor: pointer;
+}
+
+.track:hover {
+  background: #9d7a7a; /
+}
+
+.icons {
+  font-size: 16px;
+  letter-spacing: 10px;
+  color: rgb(51, 78, 146);
+}
+
