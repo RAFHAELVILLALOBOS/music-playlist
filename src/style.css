@@ -4,6 +4,11 @@ body {
   font-family: "Helvetica Neue", Arial, sans-serif;
   display: flex;
   justify-content: center;
+  background-image: url("https://i.pinimg.com/736x/f5/31/15/f5311562b4bef6999c145a92f8de4cbe.jpg");
+  background-size: cover;
+  background-position: center;
+  background-size: 100% 100%;
+
 }
 
 .MUSIC {
@@ -86,12 +91,17 @@ h2 {
 }
 
 .track:hover {
-  background: #9d7a7a; /
+  background: #575555; 
 }
 
 .icons {
   font-size: 16px;
   letter-spacing: 10px;
-  color: rgb(51, 78, 146);
+  color: rgb(15, 39, 112);
 }
+
+.track p {
+  padding-left: 1.4em;  
+}
+
 
